@@ -19,11 +19,12 @@ export default function About() {
                 </div>
               </div>
               <div className="text-muted-foreground">
-                Hi there! I am a final-year data engineering student with a deep interest in artificial intelligence and natural language processing. I am particularly fascinated by Large Language Models (LLMs) and am currently familiarizing myself with prominent RAG frameworks like LangChain.
-                <br />
-                <br />
-                This summer, I am participating in an internship where we are developing a full-stack RAG application chatbot. I am passionate about leveraging my skills in innovative projects and contributing meaningfully to the field of artificial intelligence.
-              </div>
+  Hi there! I am a final-year data engineering student with a deep interest in artificial intelligence and data engineering.
+  <br />
+  <br />
+  Currently, I am focusing on learning about cloud infrastructures to enhance my skill set. I am passionate about leveraging my skills in innovative projects and contributing meaningfully to the field of artificial intelligence and data engineering.
+</div>
+
             </Card>
             <Card className="p-6 grid gap-6 shadow-lg hover:shadow-2xl hover:translate-y-[-4px] transition-all">
               <h3 className="text-2xl font-bold">Online Certifications</h3>

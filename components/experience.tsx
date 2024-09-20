@@ -16,13 +16,12 @@ export default function Component() {
                 <div className="w-6 h-6 text-primary-foreground" />
               </div>
               <div className="grid gap-1">
-                <h3 className="text-xl font-semibold">Software and Machine Learning Engineer intern</h3>
-                <div className="text-muted-foreground">Shiftbricks, June 2024 - Present</div>
+                <h3 className="text-xl font-semibold">Data and AI Engineer intern</h3>
+                <div className="text-muted-foreground">Shiftbricks, July 2024 - September</div>
               </div>
             </div>
             <div className="text-muted-foreground">
-            We are currently building a full-stack app that features a conversational bot developed using a RAG (Retrieval-Augmented Generation) framework.<br></br> I will provide more information about the technologies we are using later.
-            </div>
+            This project focused on developing an AI conversational assistant using a RAG framework to generate responses with references from Moroccan legal documents. Advanced RAG techniques were applied to create accurate search queries, ensuring relevant results. The "Factory" design pattern enabled flexibility in switching between language model providers and databases, ensuring code reusability. Key features included chatbot API interactions, JWT authentication, and a search and navigation API. Role-based access control (RBAC) was implemented for user and content management. Performance monitoring and metric collection were handled using Grafana and Prometheus, with project management conducted via Jira and Agile Scrum.            </div>
           </Card>
         </div>
       </div>
