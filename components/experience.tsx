@@ -21,8 +21,9 @@ export default function Component() {
               </div>
             </div>
             <div className="text-muted-foreground">
-            This project focused on developing an AI conversational assistant using a RAG framework to generate responses with references from Moroccan legal documents. Advanced RAG techniques were applied to create accurate search queries, ensuring relevant results. The "Factory" design pattern enabled flexibility in switching between language model providers and databases, ensuring code reusability. Key features included chatbot API interactions, JWT authentication, and a search and navigation API. Role-based access control (RBAC) was implemented for user and content management. Performance monitoring and metric collection were handled using Grafana and Prometheus, with project management conducted via Jira and Agile Scrum.            </div>
-          </Card>
+    This project focused on developing an AI conversational assistant using a RAG framework to generate responses with references from Moroccan legal documents. Advanced RAG techniques were applied to create accurate search queries, ensuring relevant results. The &quot;Factory&quot; design pattern enabled flexibility in switching between language model providers and databases, ensuring code reusability. Key features included chatbot API interactions, JWT authentication, and a search and navigation API. Role-based access control (RBAC) was implemented for user and content management. Performance monitoring and metric collection were handled using Grafana and Prometheus, with project management conducted via Jira and Agile Scrum.
+</div>
+</Card>
         </div>
       </div>
     </section>
