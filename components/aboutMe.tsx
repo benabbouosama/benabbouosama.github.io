@@ -25,6 +25,7 @@ export default function About() {
   Currently, I am focusing on learning about cloud infrastructures to enhance my skill set. I am passionate about leveraging my skills in innovative projects and contributing meaningfully to the field of artificial intelligence and data engineering.
 </div>
 
+
             </Card>
             <Card className="p-6 grid gap-6 shadow-lg hover:shadow-2xl hover:translate-y-[-4px] transition-all">
               <h3 className="text-2xl font-bold">Online Certifications</h3>
