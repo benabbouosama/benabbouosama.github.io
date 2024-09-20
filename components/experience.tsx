@@ -17,7 +17,7 @@ export default function Component() {
               </div>
               <div className="grid gap-1">
                 <h3 className="text-xl font-semibold">Data and AI Engineer intern</h3>
-                <div className="text-muted-foreground">Shiftbricks, July 2024 - September</div>
+                <div className="text-muted-foreground">Shiftbricks, July - September 2024</div>
               </div>
             </div>
             <div className="text-muted-foreground">
