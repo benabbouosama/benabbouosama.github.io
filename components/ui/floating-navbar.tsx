@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence, useScroll, useMotionValueEvent } from "framer-motion";
 import { cn } from "@/lib/utils";
-import Link from "next/link";
 
 export const FloatingNav = ({
   navItems,
@@ -10,7 +9,7 @@ export const FloatingNav = ({
 }: {
   navItems: {
     name: string;
-    link: string;
+    link: string; // The link should remain the same
     icon?: JSX.Element;
   }[];
   className?: string;
@@ -52,6 +51,14 @@ export const FloatingNav = ({
     return () => window.removeEventListener('scroll', handleScroll);
   }, [navItems]);
 
+  // Function to handle scrolling
+  const handleScrollToSection = (link: string) => {
+    const targetElement = document.querySelector(link);
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
   return (
     <AnimatePresence mode="wait">
       <motion.div
@@ -65,9 +72,9 @@ export const FloatingNav = ({
         )}
       >
         {navItems.map((navItem, idx) => (
-          <Link
+          <button
             key={idx}
-            href={navItem.link}
+            onClick={() => handleScrollToSection(navItem.link)}
             className={cn(
               "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500",
               {
@@ -78,7 +85,7 @@ export const FloatingNav = ({
             <span className="block sm:hidden">{navItem.icon}</span>
             <span className="hidden sm:block text-sm">{navItem.name}</span>
             <span className="block sm:hidden text-sm">{navItem.name}</span> {/* Show name on small screens */}
-          </Link>
+          </button>
         ))}
       </motion.div>
     </AnimatePresence>

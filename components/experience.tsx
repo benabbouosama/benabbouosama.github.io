@@ -16,14 +16,23 @@ export default function Component() {
                 <div className="w-6 h-6 text-primary-foreground" />
               </div>
               <div className="grid gap-1">
-                <h3 className="text-xl font-semibold">Data and AI Engineer intern</h3>
-                <div className="text-muted-foreground">Shiftbricks, July - September 2024</div>
+                <h3 className="text-xl font-semibold">AI Engineer intern</h3>
+                <div className="text-muted-foreground">Shiftbricks, June - September 2024</div>
               </div>
             </div>
             <div className="text-muted-foreground">
-    This project focused on developing an AI conversational assistant using a RAG framework to generate responses with references from Moroccan legal documents. Advanced RAG techniques were applied to create accurate search queries, ensuring relevant results. The &quot;Factory&quot; design pattern enabled flexibility in switching between language model providers and databases, ensuring code reusability. Key features included chatbot API interactions, JWT authentication, and a search and navigation API. Role-based access control (RBAC) was implemented for user and content management. Performance monitoring and metric collection were handled using Grafana and Prometheus, with project management conducted via Jira and Agile Scrum.
-</div>
-</Card>
+              <ul className="list-disc list-inside space-y-2">
+                <li>Development of an AI conversational assistant based on a RAG framework, generating responses associated with references extracted from Moroccan legal documents.</li>
+                <li>Implementation of advanced RAG techniques to generate search queries that accurately represent user intent, ensuring precise and relevant search results.</li>
+                <li>Building a semantic search engine to search by meaning.</li>
+                <li>Using the Factory design pattern to allow flexibility in changing language model (LLM) providers and databases, thereby ensuring code reusability and adaptability.</li>
+                <li>Key features: personalized interaction via chatbot API, JWT authentication, search and navigation API.</li>
+                <li>Admin Interface: Implementation of RBAC (Role-Based Access Control) for user and content management.</li>
+                <li>DevOps: Grafana and Prometheus for performance monitoring and metric collection.</li>
+                <li>Project management via Jira and Agile Scrum methodology.</li>
+              </ul>
+            </div>
+          </Card>
         </div>
       </div>
     </section>

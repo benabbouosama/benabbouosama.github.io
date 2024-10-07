@@ -8,7 +8,7 @@ import RecentProjects from "@/components/RecentProjects";
 import Experience from "@/components/experience";
 import Footer from "@/components/footer";
 import About from "@/components/aboutMe"
-
+import Blog from "@/components/Blog";
 export default function Home() {
   return (
    <main className="relative bg-white flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10">
@@ -17,6 +17,7 @@ export default function Home() {
       <Myth />
       <About />
       <RecentProjects />
+      <Blog />
       <Experience />
       <Footer />
     </div>
