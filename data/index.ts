@@ -79,6 +79,10 @@ export const navItems = [
     
   ];
   
+  export const me = [
+    { path: "/Me/oussama.png" }
+  ];
+  
   
   
 

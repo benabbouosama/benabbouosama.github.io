@@ -1,7 +1,7 @@
 "use client";
 
 import { FaLocationArrow } from "react-icons/fa6";
-import { blogs } from "@/data"; // Assuming you have a blogs array in your data file
+import { blogs } from "@/data"; 
 import { useState, useEffect, useRef } from "react";
 
 // Card component to show the blog details when "View" is clicked
