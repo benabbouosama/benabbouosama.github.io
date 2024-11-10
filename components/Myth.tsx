@@ -43,7 +43,7 @@ const Myth = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Data and AI engineering student from Morocco.
+            Data Engineering student from Morocco.
           </p>
 
           <a href="#projects">

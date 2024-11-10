@@ -16,14 +16,13 @@ export default function About() {
               </Avatar>
               <div>
                 <h3 className="text-2xl font-bold">BENABBOU Oussama</h3>
-                <p className="text-muted-foreground text-xl">Data and AI Engineer</p>
               </div>
             </div>
 
             {/* Right: Introduction Paragraph */}
             <div className="text-muted-foreground text-lg leading-relaxed lg:w-2/3 space-y-4 mt-4 lg:mt-0">
               <p>
-                Hi there! I’m Oussama, a final-year Data and AI Engineering student with a strong foundation in mathematics, statistics, and Object-Oriented Programming (OOP). I’m passionate about data science, artificial intelligence, and its applications.
+                Hi there! I’m Oussama, a final-year Data Engineering student with a strong foundation in mathematics, statistics, and Object-Oriented Programming (OOP). I’m passionate about data science, artificial intelligence, and its applications.
               </p>
               <p>
                 I aspire to make a lasting impact on the world through innovative solutions, positively influencing the lives of people globally. The journey is challenging, but I’m fully committed to pursuing this mission.
